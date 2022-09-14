@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.corpo {
+    margin: 0 auto;
+    height: 0;
+    max-width: 1200px;
+    font-family: 'Inter', sans-serif;
+}
+
+.topo {
+    height: 70px;
+    border-bottom: 4px solid #F5F5F5
+}
+
+.menuNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.formNav {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+}
+
+.h1Nav {
+
+    font-size: 28px;
+}
+
+.buttonNav {
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.conteiner {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    max-width: 76%;
+}
+
+.cards {
+    max-width: 30%;
+    border: 1px solid #ffffff;
+    margin: 8px;
+
+}
+ /* .principal :hover {
+    border: 1px solid #37268C; 
+ } */
+
+.imgcard {
+    background-color: #F5F5F5;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.h3card {
+    font-size: 15px;
+    background-color: #2E245E;
+    border: #2E245E;
+    color: #F5F5F5;
+    max-width: 31%;
+    height: 20px;
+
+}
+
+.h2card {
+    font-size: 24px;
+    color: #333333;
+    height: 60px;
+}
+
+.pCard {
+    font-size: 12px;
+    color: #828282;
+    height: 45px;
+
+}
+
+.h2ValueCard {
+    font-size: 20px;
+    color: #37268C;
+}
+
+.buttonCard {
+    background-color: #ffffff;
+    border: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    height: 20px;
+}
+
+.buttonCard :hover{
+    border-bottom: 1px solid #37268C;
+    color: #37268C;
+}
+
+.segundario {
+    height: 350px;
+    margin-top: 32px;
+    max-width: 24%;
+
+}
+
+.formAside {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 35px;
+    
+}
+
+.inputAside {
+    background-color: #F5F5F5;
+    border: #F5F5F5;
+    height: 30px;
+}
+
+.buttonAside {
+    border: #37268C;
+    background-color: #37268C;
+    color: #F5F5F5;
+}
+
+.divAside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 300px;
+}
+
+.h2aside {
+    font-size: 18px;
+    background-color: #37268C;
+    color: #F5F5F5;
+    padding: 15px 40px;
+   
+    
+}
+
+.h2FooterAside{
+    font-size: 24px
+}
+
+.h3FooterAside{
+    font-size: 15px
+}
